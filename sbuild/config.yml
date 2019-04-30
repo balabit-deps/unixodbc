@@ -1,0 +1,6 @@
+name: unixODBC
+builder:
+  name: AutotoolsBuilder
+  configure_options: "--with-included-ltdl --includedir=\\${prefix}/include/unixodbc"
+platforms:
+  - linux-glibc2.11/amd64
