@@ -1,0 +1,8 @@
+Makefile.in
+sbuild/build/
+autom4te.cache/*
+*/autom4te.cache/*
+*aclocal.m4
+*configure
+sbuild/*
+!sbuild/config.yml
