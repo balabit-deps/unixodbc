@@ -1,0 +1,4 @@
+opt/syslog-ng/bin/odbcinst
+opt/syslog-ng/lib/libodbc.so*
+opt/syslog-ng/lib/libodbccr.so*
+opt/syslog-ng/lib/libodbcinst.so*
