@@ -30,7 +30,6 @@ EXTRA_DIST = \
 	README.CYGWIN \
 	README.AIX \
 	README.SOLARIS \
-	README.INTERIX \
 	vms/install_image.com \
 	vms/odbc2_axp.opt \
 	vms/odbc_axp.opt \
@@ -38,9 +37,6 @@ EXTRA_DIST = \
 	vms/odbc_setup.com \
 	vms/drivermanager_axp.opt \
 	vmsbuild.com \
-	Interix/configure \
-	Interix/config.guess \
-	Interix/libtool \
 	m4 \
 	configure.ac \
 	Makefile.svn
