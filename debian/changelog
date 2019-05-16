@@ -1,0 +1,5 @@
+unixodbc (2.3.7-1.syslogng70.0) syslogng70; urgency=medium
+
+  * import unixodbc
+
+ -- Attila Szakacs <attila.szakacs@balabit.com>  Thu, 16 May 2019 14:25:24 +0200
