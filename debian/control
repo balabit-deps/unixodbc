@@ -1,0 +1,26 @@
+Source: unixodbc
+Section: libdevel
+Priority: extra
+Maintainer: syslog-ng developers <syslog-ng@lists.balabit.hu>
+Build-depends: pkg-config
+Standards-Version: 3.6.1
+
+Package: libodbc
+Architecture: amd64
+Depends: ${shlibs:Depends}
+Description: unixODBC
+
+Package: libodbc-dbg
+Architecture: amd64
+Depends: unixodbc
+Description: Debug symbols for unixodbc
+
+Package: unixodbc
+Architecture: amd64
+Depends: ${shlibs:Depends}
+Description: unixODBC
+
+Package: unixodbc-dev
+Architecture: amd64
+Depends: ${shlibs:Depends}
+Description: unixODBC
