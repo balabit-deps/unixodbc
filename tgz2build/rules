@@ -12,7 +12,7 @@ $(STAMPDIR)/stamp-setup:
 
 configure: $(STAMPDIR)/stamp-configure
 $(STAMPDIR)/stamp-configure: $(STAMPDIR)/stamp-setup
-	CFLAGS=-g ./configure --prefix=$(ZBS_PREFIX) --with-included-ltdl --includedir=\$${prefix}/include/unixodbc
+	CFLAGS=-g LDFLAGS='-Wl,-z,origin,-rpath,\$$$$ORIGIN/../lib' ./configure --prefix=$(ZBS_PREFIX) --with-included-ltdl --includedir=\$${prefix}/include/unixodbc
 	touch $@
 
 build: $(STAMPDIR)/stamp-build
