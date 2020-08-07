@@ -1,3 +1,9 @@
+unixodbc (2.3.7-1.syslogng70.1) syslogng70; urgency=medium
+
+  * added $ORIGIN/../lib to RPATH
+
+ -- Attila Szakacs <attila.szakacs@quest.com>  Fri, 07 Aug 2020 08:34:56 +0200
+
 unixodbc (2.3.7-1.syslogng70.0) syslogng70; urgency=medium
 
   * import unixodbc
