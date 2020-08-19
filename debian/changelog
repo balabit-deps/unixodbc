@@ -1,3 +1,9 @@
+unixodbc (2.3.7-1.syslogng70.2) syslogng70; urgency=medium
+
+  * re-release because of faulty glib dependency
+
+ -- Attila Szakacs <attila.szakacs@quest.com>  Wed, 19 Aug 2020 11:57:00 +0200
+
 unixodbc (2.3.7-1.syslogng70.1) syslogng70; urgency=medium
 
   * added $ORIGIN/../lib to RPATH
