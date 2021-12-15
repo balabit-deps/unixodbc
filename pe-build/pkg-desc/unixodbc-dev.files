@@ -1,0 +1,5 @@
+opt/syslog-ng/bin/odbc_config
+opt/syslog-ng/include/unixodbc/*
+opt/syslog-ng/lib/*.la
+opt/syslog-ng/lib/*.so*
+opt/syslog-ng/lib/pkgconfig/*

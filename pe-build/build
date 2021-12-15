@@ -1,0 +1,16 @@
+source="unixodbc"
+version=2.3.7-pe-1
+
+bootstrap() {
+  autoreconf -v
+}
+
+build() {
+  cd "${build_dir}"
+  ${src_dir}/configure --prefix="${prefix}" --with-included-ltdl --includedir="\${prefix}/include/unixodbc"
+  make
+}
+
+install() {
+  make -C "${build_dir}" DESTDIR="${dest_dir}" install
+}
